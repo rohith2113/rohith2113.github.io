@@ -1,19 +1,126 @@
+/* Base settings */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* Updated font for modern look */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: #fafafa;
+    /* Lighter grey for softer look */
+    color: #333;
+    /* Default text color */
 }
 
-header,
-section,
-footer {
-    padding: 20px;
-    margin: 10px;
-    background: white;
+/* Header styles */
+header {
+    background: #ffffff;
+    padding: 40px 20px;
+    /* Increased padding for better focus */
+    text-align: center;
+    /* Centering the header content */
+    border-bottom: 2px solid #0056b3;
+    /* Add a solid line to distinguish from content */
 }
 
 header h1 {
-    color: #333;
+    color: #0056b3;
+    /* Dark blue for contrast */
+    margin: 0 0 10px;
+    /* Space between header and subtext */
+    font-size: 2.5em;
+    /* Larger font size for emphasis */
+}
+
+header p {
+    font-size: 1.2em;
+    /* Larger subtitle */
+    color: #666;
+    /* Soft grey for subtitles */
+}
+
+/* Section styles */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px 10px;
+    /* Add more vertical spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadows for depth */
+}
+
+h2 {
+    color: #0056b3;
+    /* Heading color to match theme */
+    border-bottom: 1px solid #eee;
+    /* Subtle line under headers */
+    padding-bottom: 10px;
+    /* Space under headers */
+}
+
+/* Project styles */
+.project {
+    background-color: #ffffff;
+    border-left: 5px solid #5cb85c;
+    /* Green side border for visibility */
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #0056b3;
+}
+
+.project p {
+    color: #555;
+    /* Darker text for better readability */
+}
+
+/* Experience styles */
+.experience {
+    background-color: #ffffff;
+    border-left: 5px solid #f0ad4e;
+    /* Orange side border for differentiation */
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    color: #0056b3;
+}
+
+.experience p {
+    font-style: normal;
+    /* Regular style for consistency */
+}
+
+.experience li {
+    padding-bottom: 5px;
+    /* Consistent padding for list */
+}
+
+/* Certification styles */
+.certification {
+    background-color: #ffffff;
+    border-left: 5px solid #d9534f;
+    /* Red side border for impact */
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.certification h3 {
+    color: #0056b3;
+}
+
+.certification ul {
+    padding-left: 20px;
+    /* Indentation for lists */
+}
+
+/* Footer styles */
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9em;
+    color: #666;
 }
